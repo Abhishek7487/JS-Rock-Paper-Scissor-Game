@@ -141,3 +141,13 @@ body {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .score-board {
+    margin-top: 4rem;
+  }
+}
