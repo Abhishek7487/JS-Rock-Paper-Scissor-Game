@@ -150,4 +150,16 @@ body {
   .score-board {
     margin-top: 4rem;
   }
+
+  .modal {
+    height: 250px;
+    width: 360px;
+    z-index: 1;
+    background-color: #f75555;
+    position: absolute;
+    top: 18rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
 }
